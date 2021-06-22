@@ -1,0 +1,26 @@
+{
+  "name": "create-bruh",
+  "version": "0.1.0",
+  "description": "Quickly start working with bruh",
+  "main": "./index.mjs",
+  "dependencies": {
+    "kleur": "^3.0.3",
+    "prompts": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "homepage": "https://github.com/Technical-Source/create-bruh",
+  "repository": "https://github.com/Technical-Source/create-bruh.git",
+  "bugs": "https://github.com/Technical-Source/create-bruh/issues",
+  "keywords": [
+    "init",
+    "create",
+    "bruh",
+    "app"
+  ],
+  "author": {
+    "name": "Daniel Ethridge",
+    "url": "https://git.io/de"
+  },
+  "license": "MIT"
+}
