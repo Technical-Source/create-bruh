@@ -10,7 +10,6 @@
     "kleur": "^3.0.3",
     "prompts": "^2.4.1"
   },
-  "devDependencies": {},
   "scripts": {},
   "homepage": "https://github.com/Technical-Source/create-bruh",
   "repository": "https://github.com/Technical-Source/create-bruh.git",
