@@ -8,6 +8,16 @@ import kleur from "kleur"
 
 const questions = [
   {
+    type: "select",
+    name: "template",
+    message: "Choose a template (vite-ssr is recommended)",
+    choices: [
+      { title: "vite-ssr", value: "./vite-ssr/" },
+      { title: "vite",     value: "./vite/" },
+    ],
+    initial: 0
+  },
+  {
     type: "text",
     name: "name",
     message: "What will you name this package?"
@@ -21,6 +31,7 @@ const questions = [
 ]
 
 const answers = await prompts(questions)
+const template = answers.template
 const packageDirectory = resolve(process.cwd(), answers.directory)
 
 const copyDirectory = async (from, to) => {
@@ -47,7 +58,7 @@ const copy = async (from, to) => {
 }
 
 await copy(
-  new URL("./vite/", import.meta.url).pathname,
+  new URL(template, import.meta.url).pathname,
   packageDirectory
 )
 
