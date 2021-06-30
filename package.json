@@ -1,6 +1,6 @@
 {
   "name": "create-bruh",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Quickly start working with bruh",
   "main": "./index.mjs",
   "bin": {
@@ -10,7 +10,6 @@
     "kleur": "^3.0.3",
     "prompts": "^2.4.1"
   },
-  "devDependencies": {},
   "scripts": {},
   "homepage": "https://github.com/Technical-Source/create-bruh",
   "repository": "https://github.com/Technical-Source/create-bruh.git",
