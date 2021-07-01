@@ -10,10 +10,10 @@ const questions = [
   {
     type: "select",
     name: "template",
-    message: "Choose a template (vite-ssr is recommended)",
+    message: "Choose a template (vite is recommended)",
     choices: [
-      { title: "vite-ssr", value: "./vite-ssr/" },
-      { title: "vite",     value: "./vite/" },
+      { title: "vite",         value: "./vite/" },
+      { title: "vite-minimal", value: "./vite-minimal/" },
     ],
     initial: 0
   },

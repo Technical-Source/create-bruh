@@ -22,18 +22,18 @@ main {
   gap: 1em;
   place-items: center;
   padding: 1em;
+}
 
-  & > h1 {
-    font-size: 3em;
-  }
+main > h1 {
+  font-size: 3em;
+}
 
-  & > .counter {
-    font-size: 1em;
-    padding: 0.25em;
-    border-radius: 0.25em;
+main > .counter {
+  font-size: 1em;
+  padding: 0.25em;
+  border-radius: 0.25em;
+}
 
-    &:hover {
-      cursor: pointer;
-    }
-  }
+main > .counter:hover {
+  cursor: pointer;
 }
