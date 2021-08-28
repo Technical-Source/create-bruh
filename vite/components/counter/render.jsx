@@ -1,4 +1,4 @@
-import { t } from "bruh/dom/meta-node"
+import { t } from "bruh/dom"
 
 const counterNumber = t(0).setTag("counterNumber")
 

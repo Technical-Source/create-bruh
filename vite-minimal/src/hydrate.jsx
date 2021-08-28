@@ -7,6 +7,4 @@ const app =
     counter
   )
 
-document.body.replaceChildren(
-  app.toNode()
-)
+document.body.replaceChildren(app.node)

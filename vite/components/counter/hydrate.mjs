@@ -1,4 +1,4 @@
-import { hydrateTextNodes } from "bruh/dom/meta-node"
+import { hydrateTextNodes } from "bruh/dom"
 
 const { counterNumber } = hydrateTextNodes()
 const counter = document.querySelector(".counter")

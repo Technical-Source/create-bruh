@@ -1,22 +1,13 @@
-import { t } from "bruh/dom/meta-node"
+import { t } from "bruh/dom"
+import { r } from "bruh/reactive"
 
-let n = 0
-const textNode = t(n).toNode()
-textNode.bruh = {
-  get n() {
-    return n
-  },
-
-  set n(number) {
-    textNode.textContent = n = number
-  }
-}
+const n = r(0)
 
 export const counter =
   (
-    <button class="counter">
-      Click to increment: {textNode}
+    <button class="counter" data-lol={ n }>
+      Click to increment: { t(n) }
     </button>
-  ).toNode()
+  ).node
 
-counter.addEventListener("click", () => textNode.bruh.n++)
+counter.addEventListener("click", () => n.value++)

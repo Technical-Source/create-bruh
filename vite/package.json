@@ -5,12 +5,12 @@
     "build": "vite build",
     "serve": "vite preview"
   },
-  "dependencies": {
-    "bruh": "1.4.0"
-  },
   "devDependencies": {
     "postcss-preset-env": "^6.7.0",
-    "vite": "^2.3.8",
-    "vite-plugin-bruh": "^0.3.2"
+    "vite": "^2.5.1",
+    "vite-plugin-bruh": "^0.4.0"
+  },
+  "dependencies": {
+    "bruh": "^1.6.0"
   }
 }
